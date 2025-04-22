@@ -19,7 +19,7 @@ Sample Output:
 
 
 Q.
-Write a python program to print alphabet triangle.
+Write a c++ program to print alphabet triangle.
 Input: 5
 Output:
 
