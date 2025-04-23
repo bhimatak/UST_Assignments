@@ -53,3 +53,39 @@ product = 2
 1+1+2+4
 3+3+1+1
 
+
+
+
+3) Program to Check if product of digits of a number at even and odd places is equal.
+Input: 
+
+2841
+Output:
+ Yes
+
+Input: 
+
+4324
+Output: 
+No
+
+
+4) Isha is playing with numbers and trying to write program to Check if the sum of distinct digits of two integers are equal
+
+Output Format:
+If  the sum of distinct digits of both the numbers are equal 
+if true	print YES 
+otherwise  print NO.
+
+Examples:
+Input: 
+ 2452
+ 9222
+Output:
+ YES
+
+Input
+121
+3035
+Output:
+ NO
