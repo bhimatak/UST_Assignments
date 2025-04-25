@@ -63,6 +63,13 @@ Digit frequencies:
 
 Objective: Write a program to check if a given number is an Armstrong number \
 
+Requirements:
+
+Use a loop to calculate the sum of cubes of the digits of the number
+
+Compare the sum with the original number to determine if it's an Armstrong number
+
+
 Requirements:  
 - Use a loop to calculate the sum of cubes of the digits of the number \  
 - Compare the sum with the original number to determine if it's an Armstrong number \  
