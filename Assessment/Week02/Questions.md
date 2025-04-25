@@ -7,8 +7,8 @@
 ## ✅ **Problem 1:  Number-Star Pattern**
 
 Problem Statement :Write the program for number and star pattern printing given n value.\
-Input  Format  : Take N as input of type integer.\
-Output Format  : Print  number and star pattern printing in a half diamond.\ 
+Input  Format  : Take N as input of type integer\
+Output Format  : Print  number and star pattern printing in a half diamond\ 
 
 ```
 Constraints:
@@ -34,9 +34,11 @@ Sample Output1:
 
 
 ## ✅ **Problem 2: Digits Frequency Counter**
-Objective: Write a program to count the frequency of each digit (0–9) in a given integer.  
-Note:
-- do not use arrays.  
+
+Objective: Write a program to count the frequency of each digit (0–9) in a given integer\  
+Note:\
+- do not use arrays\  
+```
 Example:  
 Input: 34534453  
 Output:  
@@ -52,20 +54,22 @@ Digit frequencies:
 8: 0
 9: 0
 0: 0  
-
+````
 ---
 
 ## ✅ **Problem 3: Check for Armstrong Number**
-Objective: Write a program to check if a given number is an Armstrong number.  
-Requirements:  
-- Use a loop to calculate the sum of cubes of the digits of the number.  
-- Compare the sum with the original number to determine if it's an Armstrong number.  
+
+Objective: Write a program to check if a given number is an Armstrong number\  
+Requirements:\  
+- Use a loop to calculate the sum of cubes of the digits of the number\  
+- Compare the sum with the original number to determine if it's an Armstrong number\  
+```
 Example:  
 Input: 153  
 Output: Armstrong number 
 explanation: 
 (since (1^3 + 5^3 + 3^3 = 153))
-
+```
 
 ---
 
