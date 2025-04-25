@@ -1,7 +1,7 @@
 #Solve any 2 out of 3 
 Time: 2 hrs
 
-###Problem 1:  Number-Star Pattern
+## ✅ **Problem 1:  Number-Star Pattern**
 Problem Statement :Write the program for number and star pattern printing given n value
 Input  Format  : Take N as input of type integer.
 Output Format  : Print  number and star pattern printing in a half diamond. 
@@ -26,7 +26,7 @@ Sample Output1:
 
 
 
-Problem 2: Digits Frequency Counter
+## ✅ **Problem 2: Digits Frequency Counter**
 Objective: Write a program to count the frequency of each digit (0–9) in a given integer.  
 Note:
 - do not use arrays.  
@@ -47,7 +47,7 @@ Digit frequencies:
 0: 0  
 
 
-Problem 3: Check for Armstrong Number
+## ✅ **Problem 3: Check for Armstrong Number**
 Objective: Write a program to check if a given number is an Armstrong number.  
 Requirements:  
 - Use a loop to calculate the sum of cubes of the digits of the number.  
