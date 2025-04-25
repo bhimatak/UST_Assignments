@@ -1,7 +1,7 @@
-Solve any 2 out of 3 
+#Solve any 2 out of 3 
 Time: 2 hrs
 
-Problem 1:  Number-Star Pattern
+###Problem 1:  Number-Star Pattern
 Problem Statement :Write the program for number and star pattern printing given n value
 Input  Format  : Take N as input of type integer.
 Output Format  : Print  number and star pattern printing in a half diamond. 
