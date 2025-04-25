@@ -7,7 +7,7 @@
 ## ✅ **Problem 1:  Number-Star Pattern**
 
 Problem Statement :Write the program for number and star pattern printing given n value.\
-Input  Format  : Take N as input of type integer\
+Input  Format  : Take N as input of type integer. \
 Output Format  : Print  number and star pattern printing in a half diamond. \ 
 
 ```
