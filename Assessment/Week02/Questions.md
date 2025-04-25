@@ -1,7 +1,9 @@
 # **Evaluation Questions Week02**
-# Solve any 2 out of 3 
+## Solve any 2 out of 3 
 ### Time: 2 hrs
+
 ---
+
 ## ✅ **Problem 1:  Number-Star Pattern**
 Problem Statement :Write the program for number and star pattern printing given n value
 Input  Format  : Take N as input of type integer.
@@ -25,6 +27,7 @@ Sample Output1:
 *1*
 *
 
+---
 
 
 ## ✅ **Problem 2: Digits Frequency Counter**
@@ -47,6 +50,7 @@ Digit frequencies:
 9: 0
 0: 0  
 
+---
 
 ## ✅ **Problem 3: Check for Armstrong Number**
 Objective: Write a program to check if a given number is an Armstrong number.  
@@ -59,12 +63,6 @@ Output: Armstrong number
 explanation: 
 (since (1^3 + 5^3 + 3^3 = 153))
 
-
-## ✅ **Question 1: Prime Gap Finder**
-
-### 🧠 Problem:
-Create a function `int nextPrime(int n)` that finds the next prime number greater than `n`.  
-Using this, find the **first pair of consecutive prime numbers** such that their difference is **greater than 10**.
 
 ---
 
