@@ -56,5 +56,14 @@ Example:
 Input: 153  
 Output: Armstrong number 
 explanation: 
-(since (1^3 + 5^3 + 3^3 = 153))  
+(since (1^3 + 5^3 + 3^3 = 153))
+
+
+## ✅ **Question 1: Prime Gap Finder**
+
+### 🧠 Problem:
+Create a function `int nextPrime(int n)` that finds the next prime number greater than `n`.  
+Using this, find the **first pair of consecutive prime numbers** such that their difference is **greater than 10**.
+
+---
 
