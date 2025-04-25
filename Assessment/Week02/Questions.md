@@ -8,8 +8,7 @@
 
 Problem Statement :Write the program for number and star pattern printing given n value.  \
 Input  Format  : Take N as input of type integer.  
-Output Format  : Print  number and star pattern printing in a half diamond   
-
+Output Format  : Print  number and star pattern printing
 ```
 Constraints:
 4<=N<=10
