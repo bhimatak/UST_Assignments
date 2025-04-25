@@ -15,6 +15,7 @@ Constraints:
 Sample Input1:
 5
 Sample Output1:
+```
 *
 *1*
 *121*
@@ -26,7 +27,7 @@ Sample Output1:
 *121*
 *1*
 *
-
+```
 ---
 
 
