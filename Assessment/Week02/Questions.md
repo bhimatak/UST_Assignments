@@ -36,8 +36,10 @@ Sample Output1:
 ## ✅ **Problem 2: Digits Frequency Counter**
 
 Objective: Write a program to count the frequency of each digit (0–9) in a given integer\  
-Note:\
-- do not use arrays\  
+```
+Note:
+- do not use arrays
+```  
 ```
 Example:  
 Input: 34534453  
