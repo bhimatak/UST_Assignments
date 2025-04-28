@@ -1,10 +1,23 @@
-Q. Check whether a given number can be expressed as the sum of two prime number
+Problem 1: Print Numbers from N to 1
+Problem Statement:
+Write a recursive function to print numbers from N down to 1.
 
-i/p
-Enter a positive integer: 34
-Output
-34 = 3 + 31
-34 = 5 + 29
-34 = 11 + 23
-34 = 17 + 17
-NoofWays = 4
+
+
+Problem 2: Sum of First N Natural Numbers
+Problem Statement:
+Write a recursive function to find the sum of the first N natural numbers.
+
+
+Problem 3: Find nth Fibonacci Number
+Problem Statement:
+Write a recursive function to return the nth Fibonacci number.
+(Fibonacci series: 0, 1, 1, 2, 3, 5, 8, ...)
+
+
+Problem 4: Count Number of Zeros in a Number
+Problem Statement:
+Write a recursive function to count the number of zeros in an integer.
+i/p: 102040
+o/p: Number of zeros in 102040 is 3
+
