@@ -75,6 +75,3 @@ _Explanation:_
 All sums equal **34**, confirming it’s a valid magic square.
 
 ---
-
-Would you like more **edge cases**, like checking for **negative numbers** or **unsorted inputs**? 🚀  
-Let me know what you'd like to refine further!
