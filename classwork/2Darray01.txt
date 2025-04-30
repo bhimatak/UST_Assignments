@@ -1,0 +1,80 @@
+Here are some **logic-based problem statements** using 2D arrays in C++ that focus on reasoning and algorithmic thinking:
+
+1. **Magic Square Verification:**  
+   Given an `N x N` matrix, determine if it is a **magic square**, meaning:
+   - The sum of each row, column, and both diagonals is the same.
+   - No duplicate numbers exist.
+
+Here are some **test cases** for the **Magic Square Verification** problem:
+
+### **Test Case 1: Valid Magic Square**
+**Input:**  
+```
+3 3
+8 1 6
+3 5 7
+4 9 2
+```
+**Expected Output:**  
+```
+It is a Magic Square!
+```
+_Explanation:_  
+All rows, columns, and diagonals sum to **15**.
+
+---
+
+### **Test Case 2: Invalid Magic Square (Row Sum Mismatch)**
+**Input:**  
+```
+3 3
+4 9 2
+3 5 8
+8 1 6
+```
+**Expected Output:**  
+```
+Not a Magic Square.
+```
+_Explanation:_  
+Second row sums to **16** instead of **15**, breaking the magic square condition.
+
+---
+
+### **Test Case 3: Invalid Magic Square (Diagonal Sum Mismatch)**
+**Input:**  
+```
+3 3
+2 7 6
+9 5 1
+4 3 8
+```
+**Expected Output:**  
+```
+Not a Magic Square.
+```
+_Explanation:_  
+One diagonal sums to **10** while the other sums to **15**, failing the magic square check.
+
+---
+
+### **Test Case 4: Larger Magic Square (Valid)**
+**Input:**  
+```
+4 4
+16 2 3 13
+5 11 10 8
+9 7 6 12
+4 14 15 1
+```
+**Expected Output:**  
+```
+It is a Magic Square!
+```
+_Explanation:_  
+All sums equal **34**, confirming it’s a valid magic square.
+
+---
+
+Would you like more **edge cases**, like checking for **negative numbers** or **unsorted inputs**? 🚀  
+Let me know what you'd like to refine further!
