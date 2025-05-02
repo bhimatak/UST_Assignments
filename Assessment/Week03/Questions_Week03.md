@@ -129,6 +129,7 @@ You are given a **sorted array** `A` of size `N` containing integers. Every elem
 
 - The array is **sorted** in non-decreasing order.
 - `1 ≤ N ≤ 10^5` (N is always **odd**)
+- if possible try to solve considering bellow 2 conditions
 - Time Complexity: **O(N)**
 - Do **not** use extra memory (i.e., no additional data structures like hash maps, sets, or arrays)
 
