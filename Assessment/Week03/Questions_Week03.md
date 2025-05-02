@@ -340,12 +340,12 @@ No element has any smaller element to its right.
 
 **Output:**
 ```
-3 1 3 0 0 0
+3 2 3 0 0 0
 ```
 
 **Explanation:**  
 - 5 → smaller on right: 3, 1, 2 → count = 3  
-- 3 → smaller on right: 1 → count = 1  
+- 3 → smaller on right: 1,2 → count = 2  
 - 7 → smaller on right: 1, 2, 6 → count = 3  
 - 1 → no smaller → count = 0  
 - 2 → no smaller → count = 0  
