@@ -12,4 +12,4 @@ Derive another subclass named as Audi of Car and Yamaha of Motorcycle.
 • The Yamaha class will contain a data member to store the make – type.
 Display the details of an Audi car (price, seating capacity, number of doors, fuel type, model
 type) and the details of the Yamaha motorcycle (price, number of cylinders, number of
-gears, number of wheels, make – type
+gears, number of wheels, make – type)
