@@ -1,0 +1,6 @@
+Task 01:
+
+Create an abstract class Car (model, price). Include get and set methods from these
+fields. The setPrice Method must be abstract. Create two subclasses Color() and
+Company() from Car and include appropriate setPrice method in these classes. Finally
+write a code that uses Car class and sub classes to display information about instances
