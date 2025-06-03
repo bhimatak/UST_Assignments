@@ -1,0 +1,29 @@
+Description
+Problem Statement
+
+You are given a string s of length n only containing digits from 0-9. Find the God Number for the given string. God Number for a string is said to be the absolute difference between the maximum and minimum definite value of characters.
+
+The Definite Value of a character is an integer that is represented by the multiplication of its character value and its frequency.
+
+If a string contains only a single type of character, then return that character's definite value as the answer.
+
+Input Format
+
+The one and only line contain a string s.
+Constraints
+
+1<=|s|<=105
+Output Format
+
+Return the God Number as asked in the problem statement.
+Sample Input
+
+1234567897653322
+Sample Output
+
+13
+Explanation
+
+Here, the maximum definite value will be of 7 which is equal to 14 and the minimum will be of 1 which is 1.
+
+So the difference is 13.
