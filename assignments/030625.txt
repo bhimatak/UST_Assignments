@@ -1,5 +1,5 @@
-Description
-Problem Statement
+Description:  God Number
+Problem Statement: God Number
 
 You are given a string s of length n only containing digits from 0-9. Find the God Number for the given string. God Number for a string is said to be the absolute difference between the maximum and minimum definite value of characters.
 
