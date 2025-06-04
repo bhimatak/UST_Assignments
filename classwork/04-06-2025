@@ -1,0 +1,128 @@
+
+## 🧩 Practice Problem Set – `std::multiset`
+
+### ✅ Problem 1: **Score Tracker**
+
+You are building a leaderboard for an online game. Every time a user finishes a level, their score is inserted. You need to:
+
+* Insert scores
+* Show top 3 scores (highest)
+* Count how many times a specific score occurred
+* Erase all instances of a score
+
+**Operations supported**:
+
+* `ADD score`
+* `TOP3`
+* `COUNT score`
+* `REMOVE score`
+
+📝 **Input Example**:
+
+```
+ADD 50
+ADD 70
+ADD 90
+ADD 70
+COUNT 70
+TOP3
+REMOVE 70
+TOP3
+```
+
+🟢 **Expected Output**:
+
+```
+2
+90 70 50
+90 50
+```
+
+---
+
+### ✅ Problem 2: **Duplicate Word Frequency**
+
+Given a paragraph, track the frequency of each word using a multiset. Then:
+
+* List all words in sorted order.
+* Count how many times a specific word occurred.
+
+📝 **Input**:
+
+```
+text = "hello world hello code hello learn world code"
+```
+
+🟢 **Output**:
+
+```
+Sorted Words:
+code code hello hello hello learn world world
+Count of 'hello': 3
+Count of 'code': 2
+```
+
+---
+
+### ✅ Problem 3: **Inventory Price Checker**
+
+Maintain a sorted multiset of item prices. After some insertions, you are to:
+
+* Check how many items have price ≥ given value (use `lower_bound`)
+* Remove one instance of a specific price (not all)
+
+📝 **Input**:
+
+```
+Insert: 100, 150, 200, 150, 250
+Check ≥ 150 → should show 4
+Erase one 150 → set should be: 100 150 200 250
+```
+
+---
+
+### ✅ Problem 4: **Student Scores Summary**
+
+Store scores from multiple students in a multiset. Compute:
+
+* Number of unique scores (hint: use `set`)
+* Most frequent score
+* List scores in ascending and descending order
+
+---
+
+### ✅ Problem 5: **Kth Largest with Multiset**
+
+You're given `N` integers and a number `K`. Output the `K`th largest element after all insertions.
+
+Example:
+**Input**: `[5, 20, 15, 30, 25]`, `K = 3`
+**Output**: `20` (sorted: 5 15 20 25 30 → 3rd largest is 20)
+
+---
+
+## 🧪 Test Cases for Problem 1: Score Tracker
+
+**Test Input:**
+
+```
+ADD 100
+ADD 200
+ADD 150
+ADD 200
+COUNT 200
+TOP3
+REMOVE 200
+TOP3
+```
+
+**Expected Output:**
+
+```
+2
+200 200 150
+200 150 100
+```
+
+---
+
