@@ -7,7 +7,7 @@
 
 ### 📦 **Constraints:** Use **STL containers only** (no multithreading), simulate OS-level behavior where appropriate
 
-### 🧰 **STL Focus:** `map`, `set`, `unordered_map`, `deque`, `vector`, `pair`, `tuple`
+### 🧰 **STL Focus:** `map`, `set`, `unordered_map`, `deque`, `vector`, `pair`
 
 ---
 
@@ -30,7 +30,14 @@ Build a **File Access Metadata Tracker** that simulates a lightweight file syste
 1. **Add Virtual File:**
 
    * Input: `fileID`, `fileName`, `ownerUser`
-   * Store in a `map<int, tuple<string, string>>` → fileID → {fileName, owner}
+   * Store in a `map<int, FileMeta>` → fileID → custom struct containing fileName and owner
+
+   ```cpp
+   struct FileMeta {
+       std::string fileName;
+       std::string ownerUser;
+   };
+   ```
 
 2. **Access File:**
 
@@ -63,11 +70,11 @@ Build a **File Access Metadata Tracker** that simulates a lightweight file syste
 
 ### 🧠 **Internal Data Structures to Use:**
 
-* `map<int, tuple<string, string>>` — fileID → (fileName, owner)
+* `map<int, FileMeta>` — fileID → file metadata (file name, owner)
 * `unordered_map<int, int>` — fileID → access frequency
 * `unordered_map<int, int>` — fileID → last accessed timestamp
 * `unordered_map<string, set<int>>` — userName → files accessed
-* `unordered_map<int, deque<pair<string, string>>>` — fileID → {access history}
+* `unordered_map<int, deque<pair<string, string>>>` — fileID → access history
 * `set<pair<int, int>>` — {lastAccessedTime, fileID} for quick retrieval
 
 ---
