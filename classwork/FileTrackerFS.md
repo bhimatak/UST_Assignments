@@ -46,7 +46,7 @@ Build a **File Access Metadata Tracker** that simulates a lightweight file syste
 
      * Access timestamp (`int timestamp++`)
      * Access frequency
-     * Maintain history per file using `deque<pair<string /*user*/, string /*accessType*/>>`
+     * Maintain history per file using `deque<pair<string, string>>` (user, accessType)
 
 3. **Delete File:**
 
