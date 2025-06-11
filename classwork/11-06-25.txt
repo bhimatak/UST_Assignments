@@ -17,3 +17,50 @@ Objective: Demonstrate data race and how to prevent it using std::mutex.
 Problem: Create two threads. One prints "Ping" and the other prints "Pong" alternately 10 times. Ensure the output is in the correct alternating sequence.
 
 Objective: Understand thread synchronization using condition variables or atomic flags.
+
+
+5. Print "ABC" Using Three Threads
+Problem Statement:
+Create three threads to print "A", "B", and "C" respectively in strict sequence. The final output should be:
+ABCABCABC... repeated 5 times.
+
+Constraints:
+
+Each thread should print only its assigned character.
+
+Use synchronization to ensure ordering: A → B → C → A ...
+
+Objective: Understand how to use condition variables or semaphores to coordinate multiple threads cyclically.
+
+6. Odd-Even Alternating Print Using Threads
+Problem Statement:
+Create two threads, one to print odd numbers and one to print even numbers from 1 to 20 in order:
+1 2 3 4 ... 20
+
+Constraints:
+
+The odd thread prints 1, 3, 5...
+
+The even thread prints 2, 4, 6...
+
+The output must be strictly in sequence.
+
+Objective: Practice coordination of threads based on numeric condition and alternating turns.
+
+7. Print FizzBuzz Using Four Threads
+Problem Statement:
+Given a number n, create four threads to print the numbers from 1 to n with the following rules:
+
+One thread prints "Fizz" for multiples of 3.
+
+One prints "Buzz" for multiples of 5.
+
+One prints "FizzBuzz" for multiples of both 3 and 5.
+
+One prints the number for all other values.
+
+Constraints:
+
+Output must be in order from 1 to n.
+
+Objective: Understand how to divide responsibility among threads and synchronize shared progress.
