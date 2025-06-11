@@ -1,0 +1,19 @@
+1. Print Numbers Using Two Threads
+Problem: Create two threads. One thread prints numbers from 1 to 10, and the other thread prints numbers from 11 to 20. Use std::thread to demonstrate concurrent execution.
+
+Objective: Understand basic thread creation and joining.
+
+2. Print Odd and Even Numbers Using Same Function
+Problem: Write a program using two threads running the same function to print odd and even numbers from 1 to N. Use a flag to distinguish between threads.
+
+Objective: Learn how to pass arguments to threads and reuse the same function logic with different behavior.
+
+3. Thread-safe Counter with Mutex
+Problem: Create multiple threads that increment a shared counter 1000 times each. Use a mutex to protect the counter from race conditions.
+
+Objective: Demonstrate data race and how to prevent it using std::mutex.
+
+4. Print Characters Alternately (Ping Pong)
+Problem: Create two threads. One prints "Ping" and the other prints "Pong" alternately 10 times. Ensure the output is in the correct alternating sequence.
+
+Objective: Understand thread synchronization using condition variables or atomic flags.
