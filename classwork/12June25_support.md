@@ -137,3 +137,6 @@ It’s achieved **automatically via cooperative work-stealing**:
 * How threads can simulate real-world CPU behavior
 
 ---
+
+
+<img src="cpuLoadBal.png" alt="CPU Load Balancer" width="500" height="600">
