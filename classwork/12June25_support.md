@@ -139,4 +139,4 @@ It’s achieved **automatically via cooperative work-stealing**:
 ---
 
 
-<img src="cpuLoadBal.png" alt="CPU Load Balancer" width="500" height="600">
+<img src="cpuLoadBal.png" alt="CPU Load Balancer" width="600" height="800">
