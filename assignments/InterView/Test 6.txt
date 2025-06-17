@@ -1,0 +1,33 @@
+Test 6
+40 mins
+
+Problem: Sum of Inverted Pyramid Elements in 1D Matrix
+You are given a matrix of dimensions N rows × M columns, stored as a 1D array in row-major order.
+
+Your task is to write a function SumMatrixUpperPyramid that calculates the sum of elements forming an inverted pyramid, starting from the top row of the matrix and narrowing down to the center column.
+
+The function should not convert the 1D array into a 2D array or use any temporary matrix.
+
+Definition of Inverted Pyramid:
+The first row contributes all its elements.
+The next row contributes all columns except the first and last.
+The following row removes one more from each side.
+This continues until the column indices cross (i.e., no more elements to add).
+Visual Example:
+Given a 1D array representing the following 4×5 matrix:
+
+  1   2   3   4   5
+ 11  12  13  14  15
+ 21  22  23  24  25
+ 31  32  33  34  35
+The inverted pyramid elements are:
+
+Row 0 →  1  2  3  4  5
+Row 1 →     12 13 14
+Row 2 →         23
+Their sum is:
+
+1 + 2 + 3 + 4 + 5 + 12 + 13 + 14 + 23 = 77
+Function Signature (C++)
+int SumMatrixUpperPyramid(int matrix[], int M, int N);
+

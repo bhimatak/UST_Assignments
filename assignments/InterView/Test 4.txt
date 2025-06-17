@@ -1,0 +1,15 @@
+Test 4
+20 mins
+Problem Statement 4:
+
+Develop a function that counts the number of words in a given string. For this task, consider a word to be a sequence of letters and/or digits, which may optionally be followed by a comma, period, and/or spaces.
+
+The goal is to identify such sequences and count how many valid words are present in the string. Multiple spaces or punctuation marks should not be treated as separate words.
+
+Use the following function prototype:
+
+int word_count(char* string);
+Note:
+Words are case-insensitive.
+Non-alphanumeric characters (except , and .) are considered delimiters.
+Assume the input string is null-terminated.

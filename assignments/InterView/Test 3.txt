@@ -1,0 +1,12 @@
+Test 3
+20 mins
+Problem Statement 3:
+
+Create a function that searches for the first occurrence of a given substring within a larger string. If the substring is found, return the starting index of its position in the main string. If the substring does not exist in the main string, return -1.
+
+You must not use any standard C library functions (like strstr, strlen, etc.), and must not create or allocate any temporary arrays or buffers during the process.
+
+Use the following function prototype:
+
+int check_substr(char* string, const char* substring);
+Note: The search should be case-sensitive and work without modifying the original input strings.

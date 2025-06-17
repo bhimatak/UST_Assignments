@@ -1,0 +1,17 @@
+Test 2
+20 mins
+Problem Statement 2:
+
+You're given the exam results of 20 students, each evaluated in 5 subjects. The marks are stored in a flat integer array of size 100, where the marks for each student are grouped together in sequence — 5 marks per student, student after student.
+
+A student is deemed to have passed if:
+
+They score 40 or more in each of the 5 subjects, and
+Their total score across all subjects is at least 250.
+Write a function that scans the array and returns the count of students who meet both criteria.
+
+Function signature:
+
+int count_passed_students(int marks[100]);
+
+

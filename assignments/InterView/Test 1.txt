@@ -1,0 +1,11 @@
+Test1
+30 mins
+Problem Statement 1:
+
+Design a function that processes a given string where words may be separated by one or more whitespace characters (such as spaces, tabs, etc.). The function should compact all sequences of consecutive whitespace into a single space between words. Additionally, it must ensure that the final string has no leading or trailing spaces.
+
+As a challenge, try implementing this functionality without creating any temporary string buffers or allocating extra memory.
+
+The function should be declared as follows:
+
+void normalize_sentence(char *str);

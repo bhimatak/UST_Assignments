@@ -1,0 +1,17 @@
+Test 5
+20 mins
+Problem Statement 5:
+Design a function that prints a triangular character pattern, where each row contains an increasing number of characters arranged diagonally from left to right. The pattern begins with the uppercase letter 'A', and proceeds alphabetically across the rows. Once 'Z' is reached, the next character wraps back around to 'A'.
+
+The number of rows in the pattern should be passed as an argument to the function. Each new row starts printing from one space to the left compared to the previous row, forming a left-diagonal alignment of the triangle.
+
+Use the following function prototype:
+
+void print_pattern(int row_count);
+
+Example Output for row_count = 5:
+        A
+      B C
+    D E F
+  G H I J
+K L M N O
