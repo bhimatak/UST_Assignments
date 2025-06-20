@@ -21,7 +21,7 @@ c. Do not use any library functions unless explicitly specified in the question.
 d. There is **no need to write the main function** and the code to take the inputs from the user using `scanf` or `cin`.  
 
 
-> **The focus should be on the logic inside the function.**
+<h3 align="center">The focus should be on the logic inside the function.</h3>
 
 ---
 
