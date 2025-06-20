@@ -10,11 +10,16 @@
 
 ---
 
-**Note:**
-a. All the questions require you to implement a function. You may call additional functions as needed.
-b. The code should be written in the C or C++ language.
-c. Do not use any library functions unless explicitly specified in the question.
-d. There is **no need to write the main function** and the code to take the inputs from the user using `scanf` or `cin`.
+**Note:**  
+
+a. All the questions require you to implement a function. You may call additional functions as needed.  
+
+b. The code should be written in the C or C++ language.  
+
+c. Do not use any library functions unless explicitly specified in the question.  
+
+d. There is **no need to write the main function** and the code to take the inputs from the user using `scanf` or `cin`.  
+
 
 > **The focus should be on the logic inside the function.**
 
