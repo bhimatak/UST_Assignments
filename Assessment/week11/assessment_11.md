@@ -46,3 +46,68 @@ Function Prototype:
 int maxShadowShiftStartIndex(const std::vector<int>& shadowMovements);
 
 ---
+
+
+
+Test cases   
+
+Function Prototype:
+int fifthLastFootprint(const std::vector& trail);
+
+// Case 1: More than 5 footprints std::vector trail1 = {1, 2, 3, 4, 5, 6, 7}; std::cout << fifthLastFootprint(trail1); // Output: 3
+
+// Case 2: Exactly 5 footprints std::vector trail2 = {10, 20, 30, 40, 50}; std::cout << fifthLastFootprint(trail2); // Output: 10
+
+// Case 3: Fewer than 5 footprints std::vector trail3 = {1, 2, 3}; std::cout << fifthLastFootprint(trail3); // Output: -1
+
+
+---  
+
+Function Prototype:
+std::string isBridgeBalanced(const std::vector<int>& vehicleWeights);
+
+
+Example Inputs and Outputs
+
+Example 1:
+
+Input:  {1, 2, 3, 4, 5}
+
+Output: "Balanced"
+
+Explanation: Vehicles are entering in increasing order — no violation of the bridge’s balancing rule.
+
+Example 2:
+
+Input:  {5, 1, 2, 4, 3}
+
+Output: "Unbalanced"
+
+Explanation: Heavier vehicle 5 entered first, but lighter ones like 1 and 2 cross afterward, which breaks the balance rule.
+
+Example 3:
+
+Input:  {3, 2, 1}
+
+Output: "Balanced"
+
+Explanation: All vehicles can wait and exit in a decreasing order — safe and balanced.
+
+---
+
+Function Prototype:
+int maxShadowShiftStartIndex(const std::vector<int>& shadowMovements);
+
+Example:
+std::vector<int> shadows1 = {4, -2, 3, 5, -1, 2};
+std::cout << maxShadowShiftStartIndex(shadows1); // Output: 2
+// Windows:
+// [4, -2, 3] => 5
+// [-2, 3, 5] => 6
+// [3, 5, -1] => 7 (max)
+// [5, -1, 2] => 6
+// So the window [3,5,-1] starts at index 2
+
+std::vector<int> shadows2 = {10, 20};
+std::cout << maxShadowShiftStartIndex(shadows2); // Output: -1	
+
