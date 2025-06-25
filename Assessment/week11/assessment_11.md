@@ -15,7 +15,7 @@ int fifthLastFootprint(const std::vector& trail);
 
 ---
 
-# ** Problem Statement 2: The Balancing Bridge ** 
+<h1 align="left">Problem Statement 2: The Balancing Bridge </h1> 
 
 In a small mechanical town, a suspension bridge is designed with a special rule: whenever a vehicle enters the bridge, it must follow the weight order rules for balance. Heavier vehicles entering must wait until lighter vehicles ahead exit, ensuring no top-heavy pressure builds up on the bridge deck. If a heavier vehicle enters before lighter ones have exited, the bridge's balance system raises an alarm.
 
@@ -29,7 +29,7 @@ std::string isBridgeBalanced(const std::vector<int>& vehicleWeights);
 
 ---
 
-#  ** Problem Statement 3: The Shifting Shadows  **  
+<h1 align="left"> Problem Statement 3: The Shifting Shadows  </h1>
 
 In a mystical valley, shadows move across the ground as the sun shifts through the sky. Each hour, a shadow’s length is recorded — positive numbers for lengthening shadows and negative numbers for shrinking ones.
 
