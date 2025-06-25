@@ -11,6 +11,7 @@ If the path turns out to be too short — that is, there aren’t even five step
 Write a function that, given a series of footprints (modeled as a forward-only sequence), returns the fifth-last footprint. If there are fewer than five steps in total, return a special indicator (e.g., -1) to show the result is undefined.
 
 Function Prototype:
+
 int fifthLastFootprint(const std::vector& trail);
 
 ---
@@ -24,6 +25,7 @@ You're given a sequence of vehicle weights as they arrive to cross the bridge. Y
 You are allowed to temporarily hold vehicles off the bridge if needed, but must process them in a way that does not violate the bridge rules.
 
 Function Prototype:
+
 std::string isBridgeBalanced(const std::vector<int>& vehicleWeights);
 
 
@@ -40,6 +42,7 @@ But time is short, and you can only walk through the record once. No rewinding. 
 If the record is too short (i.e., fewer than 3 entries), you must return -1.
 
 Function Prototype:
+
 int maxShadowShiftStartIndex(const std::vector<int>& shadowMovements);
 
 ---
