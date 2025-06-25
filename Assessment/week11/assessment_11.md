@@ -1,4 +1,4 @@
-#  ** Problem Statement 1: A Trail of Footprints **  
+# ** Problem Statement 1: A Trail of Footprints **  
 
 You set off on a long and winding path in a forest, where each of your footsteps leaves behind a unique print in the mud. You decide to study this trail, but with a twist: you're only allowed to walk it once, and you can’t look back.
 
